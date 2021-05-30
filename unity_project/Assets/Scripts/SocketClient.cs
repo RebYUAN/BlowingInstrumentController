@@ -32,19 +32,10 @@ public class SocketClient : MonoBehaviour
         text.text = "连接成功";
 
 
-        ////3.接受 / 发送消息
-        //byte[] data = new byte[1024];
-        //int length = tcpClient.Receive(data);
-        //var message = Encoding.UTF8.GetString(data, 0, length);
-        //Debug.Log(message);
-        //pressure.text = message;
-
-
         ////发送消息
         //string message2 = "Client Say To Server Hello";
         //tcpClient.Send(Encoding.UTF8.GetBytes(message2));
         //Debug.Log("客户端向服务器发送消息" + message2);
-
 
     }
 
@@ -69,7 +60,7 @@ public class SocketClient : MonoBehaviour
                 {
                     //Debug.Log(cur);
                     text.text = cur;
-                    pressure = float.Parse(cur);
+                    pressure = float.Parse(cur)-99750;
                     cur = "";
                 }
             }
