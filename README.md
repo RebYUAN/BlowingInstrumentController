@@ -19,4 +19,4 @@
 + [midterm_presentation.pde](https://github.com/RebYUAN/BlowingInstrumentController/blob/main/midterm_presentation/midterm_presentation.pde)为processing文件，是中期成果展示，可实现气压传感器对正弦波的振幅控制，processing需要安装Minim库
 + [unity_project](https://github.com/RebYUAN/BlowingInstrumentController/tree/main/unity_project)为Unity工程文件，使用Unity19.4.10版本
 + [python文件夹](https://github.com/RebYUAN/BlowingInstrumentController/tree/main/python)中包含了气压振幅映射及音源处理的python文件，使用jupyter notebook打开。其中mapping为气压振幅映射代码，split_source为音源分割代码，remove_emnvelope为音源去包络代码。需要安装pyaudio、librosa、scipy、tensorflow、numpy及matplotlib等库，具体见每个文件第一行包引入部分。
-+ [音源文件](https://github.com/RebYUAN/BlowingInstrumentController/blob/main/%E9%AB%98%E9%9F%B3%E9%94%AE%E7%AC%99%20%E9%9F%B3%E9%98%B6.wav)
++ [高音键笙 音阶.wav](https://github.com/RebYUAN/BlowingInstrumentController/blob/main/%E9%AB%98%E9%9F%B3%E9%94%AE%E7%AC%99%20%E9%9F%B3%E9%98%B6.wav) 音源文件
