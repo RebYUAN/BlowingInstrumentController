@@ -15,4 +15,10 @@
 工程文件一览
 ------------
 + test1.apk APP安装文件
-+ this_for_ESP32.ino 硬件的烧录文件，使用Arduino IDE进行烧录，需要添加Adafruit BMP280和WiFi库，并在首选项-设置中修改附加开发板管理器网址为https://dl.espressif.com/dl/package_esp32_index.json
++ this_for_ESP32.ino 硬件的烧录文件，使用Arduino IDE进行烧录，需要添加Adafruit BMP280和WiFi库，并在首选项-设置中修改附加开发板管理器网址为https://dl.espressif.com/dl/package_esp32_index.json ，重启IDE，从开发板管理器中安装ESP32，选择对应开发板，即可烧录
++ midterm_presentation.pde为processing文件，是中期成果展示，可实现气压传感器对正弦波的振幅控制，processing需要安装Minim库
++ unity_project为Unity工程文件，使用Unity19.4.10版本
++ python文件夹中包含了气压振幅映射及音源处理的python文件，使用jupyter notebook打开。其中mapping为气压振幅映射代码，split_source为音源分割代码，remove_emnvelope为音源去包络代码。需要安装pyaudio、librosa、scipy、tensorflow、numpy及matplotlib等库，具体见每个文件第一行包引入部分。
+
+
+[音源](https://pan.baidu.com/s/1BbL5yK75ex1QDsaHzt6OGw) 提取码：7b12 
